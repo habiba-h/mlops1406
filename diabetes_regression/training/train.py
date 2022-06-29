@@ -62,7 +62,7 @@ def main():
     print("Running train.py")
 
     # Define training parameters
-    ridge_args = {"alpha": 0.6}
+    ridge_args = {"alpha": 0.5}
 
     # Load the training data as dataframe
     data_dir = "data"
